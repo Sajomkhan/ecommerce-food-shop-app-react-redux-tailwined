@@ -1,47 +1,58 @@
-# A awesome Food Shop App with React-Tailwindcss
-### It's a Full Mobile Responsive App
+# A awesome Food Shop App with React, Redux, Tailwindcss & Material-UI
+### Full Mobile Responsive App
 
-### Go to Live Project: https://food-shop-app-react-tailwined.netlify.app/
+### Go to Live Project: https://food-shop-app-react-redux-tailwined.netlify.app/
 
-[![image](./src/image.JPG)](https://food-shop-app-react-tailwined.netlify.app/)
+[![image](./src/image.JPG)](https://food-shop-app-react-redux-tailwined.netlify.app/)
 
 ### It's a Full Mobile Responsive Web Page
 
-#### Add image with link in Readme Directory:
-[![name](image link)](link to your URL)
-
 ### What I use here:
 * React
+* Redux
 * Tailwindcss
-* React-icons
+* Material-UI
+* material-Icons
 
-#### First Create React App by using command line:
+#### To start a new Create React App project:
 
-    npx create-react-app ./
+    npx create-react-app my-app
+    yarn create react-app my-app
 
 ### For install Tailwind you have to follow 4 steps, such as...
 
-#### Install Tailwind CSS by command line:
+#### Installing Tailwindcss:
 
     npm install -D tailwindcss
 
-#### Generate your tailwind.config.js file:
+#### Generating tailwind.config.js file:
 
      npx tailwindcss init
 
-#### Configure your template paths
+#### Configure template paths
 #### Add the paths to all of your template files in your tailwind.config.js file:
 
     content: [
       "./src/**/*.{js,jsx,ts,tsx}",
     ],
   
- #### Add the Tailwind directives to your CSS:
+ #### Add the Tailwind directives to CSS File:
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
  
- ### Install & import React-Icon:
-    npm i react-icons --save
-    import { FaBars, FaTimes, } from 'react-icons/fa'
+ ### Installing Material-UI:
+    npm install @mui/material @emotion/react @emotion/styled
+
+ ### Installing Material-Icon:
+    npm install @mui/icons-material
+
+#### Redux Toolkit is available as a package on npm or yarn:
+
+    npm install @reduxjs/toolkit
+    yarn add @reduxjs/toolkit
+    
+#### React-Redux package:
+    npm install react-redux
+    yarn add react-redux
  
